@@ -7,4 +7,6 @@ if exists("b:current_syntax")
     finish
 endif
 
-syn match PnovelComent /%.*/
+syn match PnovelComment /%.*/
+
+hi link PnovelComment Comment
